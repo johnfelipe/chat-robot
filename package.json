@@ -1,8 +1,15 @@
 {
   "name": "chat-robot",
-  "version": "0.0.1",
-  "main": "chat.js",
+  "version": "1.0.3",
   "description": "A chatting application.",
+  "main": "chat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wtsai/chat-robot.git"
+  },
   "keywords": [
     "chat",
     "robot",
@@ -13,11 +20,6 @@
     "watson",
     "API"
   ],
-  "author": {
-    "name": "Wesley Tsai",
-    "email": "wesleyboy42@gmail.com"
-  },
-  "license": "MIT",
   "dependencies": {
     "async": "^2.0.0-rc.6",
     "mic": "^2.1.1",
@@ -28,5 +30,11 @@
     "request": "^2.72.0",
     "watson-developer-cloud": "^1.9.2",
     "wav": "^1.0.0"
-  }
+  },
+  "author": "Wesley Tsai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wtsai/chat-robot/issues"
+  },
+  "homepage": "https://github.com/wtsai/chat-robot#readme"
 }
