@@ -1,0 +1,32 @@
+{
+  "name": "chat-robot",
+  "version": "0.0.1",
+  "main": "chat.js",
+  "description": "A chatting application.",
+  "keywords": [
+    "chat",
+    "robot",
+    "tts",
+    "stt",
+    "witai",
+    "voicerss",
+    "watson",
+    "API"
+  ],
+  "author": {
+    "name": "Wesley Tsai",
+    "email": "wesleyboy42@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.0.0-rc.6",
+    "mic": "^2.1.1",
+    "mpg123": "^0.2.1",
+    "mqtt": "^1.11.0",
+    "node-wit": "^3.3.2",
+    "querystring": "^0.2.0",
+    "request": "^2.72.0",
+    "watson-developer-cloud": "^1.9.2",
+    "wav": "^1.0.0"
+  }
+}
